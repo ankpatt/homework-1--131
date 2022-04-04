@@ -92,7 +92,7 @@ There seems to be a correlation between highway and city mileage in the mpg data
 ggplot(mpg,aes(x = fct_infreq(manufacturer))) + 
 	geom_bar(stat = 'count') + 
 	coord_flip() + labs( x="Vehicle Name", y = "Number Made")
-````
+```
 
 Lincoln produced the least cars while Dodge produced the most. 
 
