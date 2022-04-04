@@ -61,7 +61,13 @@ Given a voter’s profile/data, how likely is it that they will vote in favor of
 
 How would a voter’s likelihood of support for the candidate change if they had personal contact with the candidate? I would characterize this as inferential because the contact they have with the candidate has the power to influence the response in the analysis. There is a relationship between the outcome and the predictor, as defined in the lecture slides.
 
+Exploratory Data Analysis:
 
+1. We are interested in highway miles per gallon, or the hwy variable. Create a histogram of this variable. Describe what you see/learn.
+
+```{r}
+
+```
 
 
 
