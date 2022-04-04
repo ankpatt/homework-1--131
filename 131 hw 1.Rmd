@@ -66,9 +66,39 @@ Exploratory Data Analysis:
 1. We are interested in highway miles per gallon, or the hwy variable. Create a histogram of this variable. Describe what you see/learn.
 
 ```{r}
+library(ggplot2)
+library(tidyverse)
+data("mpg")
 
+ggplot(mpg, aes(x=hwy)) + geom_histogram(color="black", fill="white") + labs(title="Highway MPG histogram plot",x="Highway MPG", y = "Frequency")
 ```
 
+This histogram shows that most cars have a frequency of being 15-25 mpg regarding highway miles per gallon.
 
 
+2. Create a scatterplot. Put hwy on the x-axis and cty on the y-axis. Describe what you notice. Is there a relationship between hwy and cty? What does this mean?
 
+```{r}
+ggplot(mpg, aes(x=hwy, y=cty)) + geom_point() + labs(title="City and Highway MPG", x="Highway MPG", y = "City MPG")
+```
+
+There seems to be a correlation between highway and city mileage in the mpg dataset as the information under both categories present an upward trend, implying that the mpg in city and highway average present themselves in the same trend. 
+
+
+3. Make a bar plot of manufacturer. Flip it so that the manufacturers are on the y-axis. Order the bars by height. Which manufacturer produced the most cars? Which produced the least?
+
+```{r}
+
+ggplot(mpg,aes(x = fct_infreq(manufacturer))) + 
+	geom_bar(stat = 'count') + 
+	coord_flip() + labs( x="Vehicle Name", y = "Number Made")
+````
+
+Lincoln produced the least cars while Dodge produced the most. 
+
+
+4. Make a box plot of hwy, grouped by cyl. Do you see a pattern? If so, what?
+
+```{r}
+
+```
