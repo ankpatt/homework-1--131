@@ -44,24 +44,25 @@ Predictive models: Figure out what combo of features fits the best. Aim to predi
 5. Predictive models are frequently used in machine learning, and they can usually be described as either mechanistic or empirically-driven. Answer the following questions.
 Define mechanistic. Define empirically-driven. How do these model types differ? How are they similar?
 
-Mechanistic means using "theory to predict what will happen in the real world". Empirically-driven means studying "real-world events to develop a theory". (Source: Google)
+Mechanistic means using "theory to predict what will happen in the real world". Empirically-driven means studying "real-world events to develop a theory". (Source: Google) They differ because one draws conclusions on the current data set off previously analyzed data, while the other comes to conclusions with the data set being analyzed. They are similar because they both are means of analyzing data to help draw conclusions. While one uses already proved theories, and the other comes to conclusion on a theory, they both provide analysis and conclusions to the data sets being studied. 
 
 In general, is a mechanistic or empirically-driven model easier to understand? Explain your choice.
 
-I would assume a mechanistic model is easier to understand because we can make conclusions based off theories that have already been proven. This will allow more accurate conclusions and analysis versus presumed analysis. 
+I would assume a mechanistic model is easier to understand because we can make conclusions based off theories that have already been proven. This will allow more accurate conclusions and analysis versus presumed analysis. We can also compare how the theory has been applied to other data sets for any variance or error analysis. 
 
 Describe how the bias-variance tradeoff is related to the use of mechanistic or empirically-driven models.
 
-The bias-variance tradeoff 
+The bias-variance tradeoff. Piazza note confirming we did not go over this in class.
 
 
-6. A political candidate’s campaign has collected some detailed voter history data from their constituents. The campaign is interested in two questions:
+6. A political candidate’s campaign has collected some detailed voter history data from their constituents. The campaign is interested in two questions: Classify each question as either predictive or inferential. Explain your reasoning for each.
 
-Given a voter’s profile/data, how likely is it that they will vote in favor of the candidate?
+Given a voter’s profile/data, how likely is it that they will vote in favor of the candidate? I would categorize this as predictive. We can make conclusions based off the profile on what the voter’s final vote will be. The profiles can be seen as predictors and the final vote, the response. 
 
-How would a voter’s likelihood of support for the candidate change if they had personal contact with the candidate?
+How would a voter’s likelihood of support for the candidate change if they had personal contact with the candidate? I would characterize this as inferential because the contact they have with the candidate has the power to influence the response in the analysis. There is a relationship between the outcome and the predictor, as defined in the lecture slides.
 
-Classify each question as either predictive or inferential. Explain your reasoning for each.
+
+
 
 
 
