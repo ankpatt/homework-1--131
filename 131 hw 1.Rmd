@@ -5,6 +5,7 @@ date: "04/03/2022"
 output:
   html_document:
     df_print: paged
+  pdf_document: default
 ---
 ---
 
