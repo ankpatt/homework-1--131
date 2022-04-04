@@ -16,7 +16,7 @@ Machine Learning Main Ideas:
 1. Define supervised and unsupervised learning. What are the difference(s) between them?
 
 
-Supervised learning relies on the response variable when unsupervised learning does not. That is the main difference between the two, the factor of having a response variable. In supervised learning, each predictor has a response or expected response when in unsupervised there is a lack of response variable that would usually supervise the analysis. 
+Supervised learning relies on the response variable when unsupervised learning does not. That is the main difference between the two, the factor of having a response variable. In supervised learning, each predictor has a response or expected response when in unsupervised there is a lack of response variable that would usually supervise the analysis. You also do not 100% know your error rate because the true value is so ambiguous. 
 
 
 2. Explain the difference between a regression model and a classification model, specifically in the context of machine learning.
@@ -28,25 +28,31 @@ The difference splits up the categorical methods of quantitative and qualitative
 3. Name two commonly used metrics for regression ML problems. Name two commonly used metrics for classification ML problems.
 
 
-
+Two commonly used metrics for regression ML problems are, as discussed in the lecture slides, logistic regression and random forests (tree based regressions).
+Two commonly used metrics for classification ML problems includes k-means clustering and Principal Component Analysis (PCA), again, as mentioned in the slides. 
 
 
 4. As discussed, statistical models can be used for different purposes. These purposes can generally be classified into the following three categories. Provide a brief description of each.
 
-Descriptive models:
+Descriptive models: Choosing a model to best visually emphasize a trend in the data. Ex: using a line on a scatterplot (From Slide 7 lecture_day2)
 
-Inferential models:
+Inferential models: Find out which features are significant. Aim to test theories, (possibly) causal claims, and state relationships between the outcomes & predictors in the analysis.
 
-Predictive models:
+Predictive models: Figure out what combo of features fits the best. Aim to predict Y with minimum reducible error. This model does not focus on hypothesis tests. 
 
 
 5. Predictive models are frequently used in machine learning, and they can usually be described as either mechanistic or empirically-driven. Answer the following questions.
-
 Define mechanistic. Define empirically-driven. How do these model types differ? How are they similar?
+
+Mechanistic means using "theory to predict what will happen in the real world". Empirically-driven means studying "real-world events to develop a theory". (Source: Google)
 
 In general, is a mechanistic or empirically-driven model easier to understand? Explain your choice.
 
+I would assume a mechanistic model is easier to understand because we can make conclusions based off theories that have already been proven. This will allow more accurate conclusions and analysis versus presumed analysis. 
+
 Describe how the bias-variance tradeoff is related to the use of mechanistic or empirically-driven models.
+
+The bias-variance tradeoff 
 
 
 6. A political candidate’s campaign has collected some detailed voter history data from their constituents. The campaign is interested in two questions:
